@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://github.com/coding-man/blog/sitemap.xml
+Sitemap: https://coding-man.github.io/blog/sitemap.xml
