@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Hugo quick start - Even - A super concise theme for Hugo</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="olOwOlo" /><meta name="description" content="This quick start uses macOS in the examples. For instructions about how to install Hugo on other operating systems, see install. It is recommended to have Git installed to run this tutorial.
+ Step 1: Install Hugo  Homebrew, a package manager for macOS, can be installed from brew.sh. See install if you are running Windows etc.
+ 1  brew install hugo   To verify your new install:" /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.57.2 with theme even" />
+
+
+<link rel="canonical" href="https://coding-man.github.io/blog/post/quick-start/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/blog/favicon-16x16.png">
+<link rel="manifest" href="/blog/manifest.json">
+<link rel="mask-icon" href="/blog/safari-pinned-tab.svg" color="#5bbad5">
+
+
+<link href="/blog/dist/even.c2a46f00.min.css" rel="stylesheet">
+<link href="/blog/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+<meta property="og:title" content="Hugo quick start" />
+<meta property="og:description" content="This quick start uses macOS in the examples. For instructions about how to install Hugo on other operating systems, see install. It is recommended to have Git installed to run this tutorial.
+ Step 1: Install Hugo  Homebrew, a package manager for macOS, can be installed from brew.sh. See install if you are running Windows etc.
+ 1  brew install hugo   To verify your new install:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://coding-man.github.io/blog/post/quick-start/" />
+<meta property="article:published_time" content="2019-09-17T16:54:39+08:00" />
+<meta property="article:modified_time" content="2019-09-17T16:54:39+08:00" />
+<meta itemprop="name" content="Hugo quick start">
+<meta itemprop="description" content="This quick start uses macOS in the examples. For instructions about how to install Hugo on other operating systems, see install. It is recommended to have Git installed to run this tutorial.
+ Step 1: Install Hugo  Homebrew, a package manager for macOS, can be installed from brew.sh. See install if you are running Windows etc.
+ 1  brew install hugo   To verify your new install:">
+
+
+<meta itemprop="datePublished" content="2019-09-17T16:54:39&#43;08:00" />
+<meta itemprop="dateModified" content="2019-09-17T16:54:39&#43;08:00" />
+<meta itemprop="wordCount" content="615">
+
+
+
+<meta itemprop="keywords" content="hugo," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Hugo quick start"/>
+<meta name="twitter:description" content="This quick start uses macOS in the examples. For instructions about how to install Hugo on other operating systems, see install. It is recommended to have Git installed to run this tutorial.
+ Step 1: Install Hugo  Homebrew, a package manager for macOS, can be installed from brew.sh. See install if you are running Windows etc.
+ 1  brew install hugo   To verify your new install:"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/blog/" class="logo">coding-man</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/blog/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/blog/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/blog/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/blog/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a><a href="/blog/about/">
+        <li class="mobile-menu-item">About</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/blog/" class="logo">coding-man</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/blog/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/blog/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/blog/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/blog/categories/">Categories</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/blog/about/">About</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Hugo quick start</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2019-09-17 </span>
+        <div class="post-category">
+            <a href="/blog/categories/hugo/"> hugo </a>
+            </div>
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#step-1-install-hugo">Step 1: Install Hugo</a></li>
+<li><a href="#step-2-create-a-new-site">Step 2: Create a New Site</a></li>
+<li><a href="#step-3-add-a-theme">Step 3: Add a Theme</a></li>
+<li><a href="#step-4-add-some-content">Step 4: Add Some Content</a></li>
+<li><a href="#step-5-start-the-hugo-server">Step 5: Start the Hugo server</a></li>
+<li><a href="#step-6-customize-the-theme">Step 6: Customize the Theme</a>
+<ul>
+<li><a href="#site-configuration">Site Configuration</a></li>
+</ul></li>
+<li><a href="#step-7-build-static-pages">Step 7: Build static pages</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      
+
+<blockquote>
+<p>This quick start uses <code>macOS</code> in the examples. For instructions about how to install Hugo on other operating systems, see <a href="https://gohugo.io/getting-started/installing/">install</a>.
+It is recommended to have <a href="https://git-scm.com/downloads">Git installed</a> to run this tutorial.</p>
+</blockquote>
+
+<h2 id="step-1-install-hugo">Step 1: Install Hugo</h2>
+
+<blockquote>
+<p><code>Homebrew</code>, a package manager for <code>macOS</code>,  can be installed from <a href="https://brew.sh/">brew.sh</a>. See <a href="https://gohugo.io/getting-started/installing/">install</a> if you are running Windows etc.</p>
+</blockquote>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">brew install hugo</code></pre></td></tr></table>
+</div>
+</div>
+<p>To verify your new install:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">hugo version</code></pre></td></tr></table>
+</div>
+</div>
+<h2 id="step-2-create-a-new-site">Step 2: Create a New Site</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">hugo new site quickstart</code></pre></td></tr></table>
+</div>
+</div>
+<p>The above will create a new Hugo site in a folder named <code>quickstart</code>.</p>
+
+<h2 id="step-3-add-a-theme">Step 3: Add a Theme</h2>
+
+<p>See <a href="https://themes.gohugo.io/">themes.gohugo.io</a> for a list of themes to consider. This quickstart uses the beautiful <a href="https://themes.gohugo.io/gohugo-theme-ananke/">Ananke theme</a>.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">cd</span> quickstart
+
+<span class="c1"># Download the theme</span>
+git init
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+<span class="c1"># Note for non-git users:</span>
+<span class="c1">#   - If you do not have git installed, you can download the archive of the latest</span>
+<span class="c1">#     version of this theme from:</span>
+<span class="c1">#       https://github.com/budparr/gohugo-theme-ananke/archive/master.zip</span>
+<span class="c1">#   - Extract that .zip file to get a &#34;gohugo-theme-ananke-master&#34; directory.</span>
+<span class="c1">#   - Rename that directory to &#34;ananke&#34;, and move it into the &#34;themes/&#34; directory.</span>
+<span class="c1"># End of note for non-git users.</span>
+
+<span class="c1"># Edit your config.toml configuration file</span>
+<span class="c1"># and add the Ananke theme.</span>
+<span class="nb">echo</span> <span class="s1">&#39;theme = &#34;ananke&#34;&#39;</span> &gt;&gt; config.toml</code></pre></td></tr></table>
+</div>
+</div>
+<h2 id="step-4-add-some-content">Step 4: Add Some Content</h2>
+
+<p>You can manually create content files (for example as <code>content/&lt;CATEGORY&gt;/&lt;FILE&gt;.&lt;FORMAT&gt;</code>) and provide metadata in them, however you can use <code>new</code> commend to do few things for you (like add title and date):</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">hugo new posts/my-first-post.md</pre></td></tr></table>
+</div>
+</div>
+<p>Edit the newly created content file if you want, it will start with something like this:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">---
+title: &#34;My First Post&#34;
+date: 2019-03-26T08:47:11+01:00
+draft: true
+---</code></pre></td></tr></table>
+</div>
+</div>
+<h2 id="step-5-start-the-hugo-server">Step 5: Start the Hugo server</h2>
+
+<p>Now, start the Hugo server with drafts enabled:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">▶ hugo server -D
+
+                   | EN
++------------------+----+
+  Pages            | 10
+  Paginator pages  |  0
+  Non-page files   |  0
+  Static files     |  3
+  Processed images |  0
+  Aliases          |  1
+  Sitemaps         |  1
+  Cleaned          |  0
+
+Total in 11 ms
+Watching for changes in /Users/bep/quickstart/{content,data,layouts,static,themes}
+Watching for config changes in /Users/bep/quickstart/config.toml
+Environment: &#34;development&#34;
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop</pre></td></tr></table>
+</div>
+</div>
+<p><strong>Navigate to your new site at <a href="http://localhost:1313/">http://localhost:1313/</a>.</strong></p>
+
+<p>Feel free to edit or add new content and simply refresh in browser to see changes quickly (You might need to force refresh in webbrowser, something like Ctrl-R usually works).</p>
+
+<h2 id="step-6-customize-the-theme">Step 6: Customize the Theme</h2>
+
+<p>Your new site already looks great, but you will want to tweak it a little before you release it to the public.</p>
+
+<h3 id="site-configuration">Site Configuration</h3>
+
+<p>Open up <code>config.toml</code> in a text editor:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">baseURL = &#34;https://example.org/&#34;
+languageCode = &#34;en-us&#34;
+title = &#34;My New Hugo Site&#34;
+theme = &#34;ananke&#34;</pre></td></tr></table>
+</div>
+</div>
+<p>Replace the <code>title</code> above with something more personal. Also, if you already have a domain ready, set the <code>baseURL</code>. Note that this value is not needed when running the local development server.</p>
+
+<blockquote>
+<p><strong>Tip:</strong> Make the changes to the site configuration or any other file in your site while the Hugo server is running, and you will see the changes in the browser right away, though you may need to clear your cache.</p>
+</blockquote>
+
+<p>For theme specific configuration options, see the <a href="https://github.com/budparr/gohugo-theme-ananke">theme site</a>.</p>
+
+<h2 id="step-7-build-static-pages">Step 7: Build static pages</h2>
+
+<p>It is simple. Just call:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">hugo</pre></td></tr></table>
+</div>
+</div>
+<p>Output will be in <code>./public/</code> directory by default (<code>-d</code>/<code>--destination</code> flag to change it, or set <code>publishdir</code> in the config file).</p>
+
+    </div>
+
+    
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/blog/tags/hugo/">hugo</a>
+          </div>
+      <nav class="post-nav">
+        
+        
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="https://github.com/coding-man/blog" class="iconfont icon-github" title="github"></a>
+  <a href="https://coding-man.github.io/blog/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2017 - 
+    2019
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">olOwOlo</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  <script type="text/javascript" src="/blog/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/blog/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/blog/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/blog/dist/even.26188efa.min.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

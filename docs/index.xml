@@ -6,7 +6,7 @@
     <description>Recent content on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Aug 2017 01:37:56 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 17 Sep 2019 16:54:39 +0800</lastBuildDate>
     
 	<atom:link href="https://coding-man.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,12 +23,14 @@ It makes use of a variety of open source projects including:
     </item>
     
     <item>
-      <title>[中文] 《长恨歌》</title>
-      <link>https://coding-man.github.io/blog/post/chinese-preview/</link>
-      <pubDate>Wed, 30 Aug 2017 01:37:56 +0800</pubDate>
+      <title>Hugo quick start</title>
+      <link>https://coding-man.github.io/blog/post/quick-start/</link>
+      <pubDate>Tue, 17 Sep 2019 16:54:39 +0800</pubDate>
       
-      <guid>https://coding-man.github.io/blog/post/chinese-preview/</guid>
-      <description>《长恨歌》是中国唐朝诗人白居易的一首长篇叙事诗。 第一段：贵妃受宠爱 汉皇重色思倾国，御宇多年求不得。杨家有女初长成，养在深闺人未识。 天生丽质难</description>
+      <guid>https://coding-man.github.io/blog/post/quick-start/</guid>
+      <description>This quick start uses macOS in the examples. For instructions about how to install Hugo on other operating systems, see install. It is recommended to have Git installed to run this tutorial.
+ Step 1: Install Hugo  Homebrew, a package manager for macOS, can be installed from brew.sh. See install if you are running Windows etc.
+ 1  brew install hugo   To verify your new install:</description>
     </item>
     
   </channel>
