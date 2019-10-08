@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>golang on Even - A super concise theme for Hugo</title>
+    <title>golang on coding-man&#39;s blog</title>
     <link>https://coding-man.github.io/blog/tags/golang/</link>
-    <description>Recent content in golang on Even - A super concise theme for Hugo</description>
+    <description>Recent content in golang on coding-man&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 29 Sep 2019 14:04:36 +0800</lastBuildDate>
