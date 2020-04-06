@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on coding-man&#39;s blog</title>
@@ -6,10 +6,19 @@
     <description>Recent content in Posts on coding-man&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Oct 2019 13:59:09 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2020 15:36:24 +0800</lastBuildDate>
     
 	<atom:link href="https://coding-man.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>JVM打印所有XX参数及值</title>
+      <link>https://coding-man.github.io/blog/post/jvm-xx-params/</link>
+      <pubDate>Mon, 06 Apr 2020 15:36:24 +0800</pubDate>
+      
+      <guid>https://coding-man.github.io/blog/post/jvm-xx-params/</guid>
+      <description>&lt;p&gt;JVM打印所有XX参数及值主要有如下的参数：PrintCommandLineFlags, PrintFlagsInitial, PrintFlagsFinal.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>CRLF</title>

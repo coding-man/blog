@@ -5,8 +5,8 @@ lastmod: 2019-09-29T14:04:36+08:00
 draft: false
 keywords: []
 description: ""
-tags: [golang]
-categories: [golang]
+tags: ["golang"]
+categories: ["golang"]
 author: ""
 
 # You can also close(false) or open(true) something for this content.
